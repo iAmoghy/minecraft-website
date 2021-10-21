@@ -221,6 +221,7 @@ html {
   margin-top: 15px;
   font-size: 10px;
   color: #fff;
+  cursor: pointer;
 }
 
 .quick-links ul li p:hover{
