@@ -1,0 +1,514 @@
+<html>
+<head>
+   <title>Welcome to Minecraft 1.18</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="flickity.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+   <div class="home-main">
+       <div class="menu" >
+           <ul>
+               <li class="logo"><img src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/GrassBlock_HighRes.png" data-aos="zoom-in" data-aos-duration="1500"></li>
+               <li><a href="index.html" class="home">Home</a></li>
+               <li><a href="#caves-target" class="services" id="caves-scroll">Caves</a></li>
+               <li><a href="#cliffs-target" class="product" id="cliffs-scroll">Cliffs</a></li>
+               <li><a href="#misc-target" class="contact" id="misc-scroll">Miscellaneous</a></li>
+               <li><a href="#download-target" class="contact" id="download-scroll">Download</a></li>
+           </ul>
+       </div>
+       <div class="banner" data-aos="fade-right" data-aos-duration="1500">
+           <div class="app-text">
+               <h1 class="title-bb">Minecraft 1.18</h1>
+               <h2 class="subtitle-bb"><em>A Revolutionary Update</em></h1>
+
+                <p>
+                    Caves and Cliffs Part 2 is coming to Minecraft 1.18 in late 2021!
+                    <br>This game changing update adds many new features, primarily being
+                    <br>fundamental changes to the terrain and world generation, as
+                    <br>well as populating the underground world with a variety of new
+                    <br>resources and dangers. Available on Java and Bedrock editions!<br>
+                    <br>
+                    A new journey awaits you. More information below!
+                </p>
+
+
+               <div class="download-minecraft-btn">
+                   <div class="download-minecraft-btn-inner"><a href="https://www.minecraft.net/en-us/download" class="download-minecraft-link"><i class="fa fa-play" aria-hidden="true" style="font-size: 23px;"></i></a></div>
+                   <small class="learn-more"><b><a href="https://www.minecraft.net/en-us/download" class="download-minecraft-link">DOWNLOAD NOW</a></b></small>
+               </div>
+           </div>
+       </div>
+       <div class="grid" data-aos="zoom-in" data-aos-duration="1500">
+          <div class="row">
+               <div class="cell"><img src="img/Stuff Cropped.jpeg" style="width:100%" class="grid-image"></div>
+               <div class="cell"><img src="img/Terrain Cropped.jpg" style="width:100%" class="grid-image"></div>
+               <div class="cell"><img src="img/Stony Peaks Cropped.jpg" style="width:100%" class="grid-image"></div>
+           </div>
+           <div class="row">
+               <div class="cell"><img src="img/Warden Cropped.jpg" style="width:100%" class="grid-image"></div>
+               <div class="cell"><img src="img/Caves and Cliffs Cropped.jpeg" style="width:100%" class="grid-image"></div>
+               <div class="cell"><img src="img/Flying Animals Cropped.jpg" style="width:100%" class="grid-image"></div>
+           </div>
+           <div class="row">
+               <div class="cell"><img src="img/Goat Cropped.png" style="width:100%" class="grid-image"></div>
+               <div class="cell"><img src="img/Mountains Cropped.png" style="width:100%" class="grid-image"></div>
+               <div class="cell"><img src="img/Caves Cropped.png" style="width:100%" class="grid-image"></div>
+           </div>
+       </div>
+           <div class="quick-links">
+               <ul>
+                   <li><button onclick="copyToClipboard()" class="share-button"><i class="fa fa-share-alt" aria-hidden="true"></i><p>SHARE TO</p></button></li>
+                   <li><a href="https://twitter.com/_minecraft_live?lang=en" class="remove-underline"><i class="fa fa-newspaper-o" aria-hidden="true"></i><p>RECENT NEWS</p></a></li>
+               </ul>
+           </div>
+       <div class="social-icons" data-aos="zoom-out" data-aos-duration="1500">
+           <ul>
+               <li>
+                   <div class="social-app">
+                       <div class="social-app-inner">
+                           <a href="https://www.facebook.com/minecraft/" class="social-app-p"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                       </div>
+                   </div>
+               </li>
+               <li>
+                   <div class="social-app">
+                       <div class="social-app-inner">
+                           <a href="https://twitter.com/Minecraft?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="social-app-p"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                       </div>
+                   </div>
+               </li>
+               <li>
+                    <div class="social-app">
+                        <div class="social-app-inner">
+                            <a href="https://www.instagram.com/minecraft/" class="social-app-p"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+               </li>
+               <li>
+                   <div class="social-app">
+                    <div class="social-app-inner">
+                        <a href="https://www.youtube.com/channel/UC1sELGmy5jp5fQUugmuYlXQ" class="social-app-p"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+               </li>
+           </ul>
+       </div>
+      
+   </div>
+   <div class="caves-main" id="caves-target">
+       <div class="caves-text-right" data-aos="zoom-in" data-aos-duration="1500">
+           <div class="app-text">
+               <h1 class="title-bb" id="caves-title">Extraordinary Caves</h1>
+               <h2 class="subtitle-bb" id="caves-subtitle"><em>From lifeless to lush</em></h1>
+               <p id="caves-p">
+                   Minecraft 1.18 introduces an overhual of new cave biomes and ores players have been wanting for years.
+                   <br>The update presents everthing from the LUSH CAVES (images 1 and 2) filled with dense vegetation, vines, fruit, glowberries, and leaves, to the dark and desolate Dripstone and Deepslate Caverns (images 3 and 4).
+                   <br>This gives Minecrafters a chance to refresh their experience about caves and encourage them to enjoy the mining aspect of the game more.
+                   <br>After all, it is called MINEcraft!
+               </p>
+           </div>
+       </div>
+       <div class="caves-text-left" data-aos="zoom-in" data-aos-duration="1500">
+           <div class="gallery js-flickity order-2" data-flickity-options='{ "wrapAround": true, "lazyLoad": 1, "fullscreen": true }'
+         data-aos="zoom-in">
+               <div class="gallery-cell">
+                   <img data-flickity-lazyload="./img/caves/lush0.png" class="gallery-cell-image">
+               </div>
+               <div class="gallery-cell">
+               <img data-flickity-lazyload="./img/caves/lush1.png" class="gallery-cell-image">
+               </div>
+               <div class="gallery-cell">
+                   <img data-flickity-lazyload="./img/caves/dripstone.jpg" class="gallery-cell-image">
+               </div>
+               <div class="gallery-cell">
+                   <img data-flickity-lazyload="./img/caves/deepslate.jpg" class="gallery-cell-image">
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <div class="mountains-main" id="cliffs-target">
+
+    <div class="mountains-text-right" data-aos="zoom-in" data-aos-duration="1500">
+
+        <div class="gallery js-flickity order-2" data-flickity-options='{ "wrapAround": true, "lazyLoad": 1, "fullscreen": true }'>
+
+            <div class="gallery-cell">
+                <img data-flickity-lazyload="img/mountains/1.png" class="gallery-cell-image">
+            </div>
+
+            <div class="gallery-cell">
+                <img data-flickity-lazyload="img/mountains/2.png" class="gallery-cell-image">
+            </div>
+
+            <div class="gallery-cell">
+                <img data-flickity-lazyload="img/mountains/3.png" class="gallery-cell-image">
+            </div>
+
+            <div class="gallery-cell">
+                <img data-flickity-lazyload="img/mountains/4.png" class="gallery-cell-image">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="mountains-text-left" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="app-text">
+            <h1 class="title-bb" id="mountains-title">MOUNTAINS</h1>
+            <h2 class="subtitle-bb" id="mountains-subtitle"><em>From hills to the heavens</em></h1>
+
+
+            <p id="mountains-p">
+                In the caves and cliffs update, one of the major features is the new mountains. Having increased the world 
+                height from 256 blocks to 320 blocks, there is a lot more space for the 6 new mountain biomes. These range 
+                from the 
+                <button id="toggle1" class="biome-button-info">meadow</button>, 
+                <button id="toggle2" class="biome-button-info">grove</button>, 
+                <button id="toggle3" class="biome-button-info">snowy slopes</button>, 
+                <button id="toggle4" class="biome-button-info">jagged peaks</button>, 
+                <button id="toggle5" class="biome-button-info">frozen peaks</button> and 
+                <button id="toggle6" class="biome-button-info">stony peaks</button> (see to the right for more information on each biome).
+
+            </p>
+
+        </div>
+    </div>
+
+    <div class="biome-sections">
+        <div class="biome-section" id="meadow-info">
+            <div class="biome-bar">
+                <div class="close-box">
+                    <div class="close-box-inner">
+                        <div class="close-button">
+                            <button id="xbutton1" class="close-button-inner"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="biome west">
+                <h1 class="title-bb" id="meadow-title">MEADOW</h1>
+                <div class="biome-image">
+                    <img class="biome-pic" src="img/mountain_biomes/meadow.png">
+                </div>
+            </div>
+            <div class="biome east">
+                <div class="biome-text">
+                    <p class="biome-p">
+                        The meadow is a warmer biome of the mountains. It features a turquoise-green hue of 
+                        grass with patches of flowers and grass. Here sheep, donkey, and rabbits can all spawn. 
+                        Flowers, other than the biome specific or special flowers, can all generate here as 
+                        well. Occasionally a lone tree will generate with a bee nest, a good place to find 
+                        your first bee nest in a new world. This is also the only mountain biome where villages 
+                        (plains) can generate, in addition to pillager towers. The meadow can be found either 
+                        at the lower slopes of mountains or as a stand alone plateau.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="biome-section" id="grove-info">
+            <div class="biome-bar">
+                <div class="close-box">
+                    <div class="close-box-inner">
+                        <div class="close-button">
+                            <button id="xbutton2" class="close-button-inner"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="biome west">
+                <h1 class="title-bb" id="grove-title">GROVE</h1>
+                <div class="biome-image">
+                    <img class="biome-pic" src="img/mountain_biomes/grove.png">
+                </div>
+            </div>
+            <div class="biome east">
+                <div class="biome-text">
+                    <p class="biome-p">
+                        Mountain tops many times do not have trees on top, however with the grove biome, a 
+                        forest of spruce trees generate on the slopes of a mountain. Here in this cold biome, 
+                        water freezes and the surface is covered with snow and also the new powder snow. The 
+                        grove is the home of Rabbits, wolves and also foxes. It will also generate next to 
+                        forests and taigas.
+                    </p>
+                </div>
+            </div>
+        </div>            
+
+        <div class="biome-section" id="snowy-slopes-info">
+            <div class="biome-bar">
+                <div class="close-box">
+                    <div class="close-box-inner">
+                        <div class="close-button">
+                            <button id="xbutton3" class="close-button-inner"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="biome west">
+                <h1 class="title-bb" id="snowy-slopes-title">SNOWY SLOPES</h1>
+                <div class="biome-image">
+                    <img class="biome-pic" src="img/mountain_biomes/snowy_slopes.png">
+                </div>
+            </div>
+            <div class="biome east">
+                <div class="biome-text">
+                    <p class="biome-p">
+                        The snowy slopes biome is a transitional biome between the lower levels of the 
+                        mountains and the peaks. It is covered in snow and is the home to goats and rabbits. 
+                        A special structure, igloos, also have a chance to spawn in this biome. The biome 
+                        generates next to plains biomes, however can also generate next to a snowy tundra.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="biome-section" id="jagged-peaks-info">
+            <div class="biome-bar">
+                <div class="close-box">
+                    <div class="close-box-inner">
+                        <div class="close-button">
+                            <button id="xbutton4" class="close-button-inner"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="biome west">
+                <h1 class="title-bb" id="jagged-peaks-title">JAGGED PEAKS</h1>
+                <div class="biome-image">
+                    <img class="biome-pic" src="img/mountain_biomes/jagged_peaks.png">
+                </div>
+            </div>
+            <div class="biome east">
+                <div class="biome-text">
+                    <p class="biome-p">
+                        One of the three peak biomes is the jagged peaks. It will only generate on the top of 
+                        mountains if they are tall enough for it to generate. The biome generates in snowy, 
+                        cold biomes and will often generate jagged peaks, hence the name, which can surpass 
+                        the clouds at y=256. Only the adventurous goat lives in these biomes, however ores 
+                        such as iron, coal and emerald can be found while climbing on the sides of the 
+                        jagged peaks.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="biome-section" id="frozen-peaks-info">
+            <div class="biome-bar">
+                <div class="close-box">
+                    <div class="close-box-inner">
+                        <div class="close-button">
+                            <button id="xbutton5" class="close-button-inner"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="biome west">
+                <h1 class="title-bb" id="frozen-peaks-title">FROZEN PEAKS</h1>
+                <div class="biome-image">
+                    <img class="biome-pic" src="img/mountain_biomes/frozen_peaks.png">
+                </div>
+            </div>
+            <div class="biome east">
+                <div class="biome-text">
+                    <p class="biome-p">
+                        One of the three mountain peak biomes is the frozen peaks. They are covered in snow 
+                        and with glaciers of packed ice. The thick furred goats are the only mob that spawn 
+                        in this biome. This biome will usually generate next to smooth cold hill biomes 
+                        however occasionally will generate in more jagged terrains. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="biome-section" id="stony-peaks-info">
+            <div class="biome-bar">
+                <div class="close-box">
+                    <div class="close-box-inner">
+                        <div class="close-button">
+                            <button id="xbutton6" class="close-button-inner"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="biome west">
+                <h1 class="title-bb" id="stony-peaks-title">STONY PEAKS</h1>
+                <div class="biome-image">
+                    <img class="biome-pic" src="img/mountain_biomes/stony_peaks.png">
+                </div>
+            </div>
+            <div class="biome east">
+                <div class="biome-text">
+                    <p class="biome-p">
+                        The warmer mountain peak biome is the stony peaks. It mainly generates by warm biomes 
+                        such as savannas and jungles and it will no generate by snowy slopes or groves. The 
+                        stony peaks, as the name suggests, are covered in stone, with veins of calcite and 
+                        exposed ores. The grass in the stony peaks have a unique vibrant light green tint. 
+                        Sadly, no passive mob has the stony peaks as a home.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+   <div class="misc-main" id="misc-target">
+       <div class="misc-text-right" data-aos="zoom-in" data-aos-duration="1500">
+           <div class="app-text">
+               <h1 class="title-bb" id="misc-title">Miscellaneous</h1>
+               <h2 class="subtitle-bb" id="misc-subtitle"><em>Anything and Everything Else</em></h1>
+               <p id="misc-p">
+                   Other major changes that will be incorporated into the game including:
+                   <br>• Huge changes to the terrain limits, changing the lowest Y-axis block to -64 and lowering the highest block to 320!
+                   <br>• Adjusted and wider rivers, as well as more fjords cutting through mountains.
+                   <br>• Bundles will be introduced which allows for the creation of bags to help inventory management.
+                   <br>• Ore veins making longer and rarer ore formations.
+                   <br>• The introduction of the blind mob that detects players through footsteps, called the Warden that is sure to give you a shock!
+ 
+               </p>
+           </div>
+       </div>
+       <div class="misc-text-left" data-aos="zoom-in" data-aos-duration="1500">
+           <div class="gallery js-flickity order-2" data-flickity-options='{ "wrapAround": true, "lazyLoad": 1, "fullscreen": true }'>
+               <div class="gallery-cell">
+                   <img data-flickity-lazyload="./img/misc/Bundles Misc.jpg" class="gallery-cell-image">
+               </div>
+               <div class="gallery-cell">
+               <img data-flickity-lazyload="./img/misc/Fjord Misc.png" class="gallery-cell-image">
+               </div>
+               <div class="gallery-cell">
+                   <img data-flickity-lazyload="./img/misc/Skulk blocks Misc.jpg" class="gallery-cell-image">
+               </div>
+               <div class="gallery-cell">
+                   <img data-flickity-lazyload="./img/misc/Terrain Changes Misc.jpg" class="gallery-cell-image">
+               </div>
+           </div>
+       </div>
+   </div>
+
+
+<section class="scene">
+    <div class="rocket">
+        <img src="img/block.png" alt="rocket!!!" width=120px class="block">
+    </div>
+</section>
+
+<div class="download-container" id="download-target">
+    <div class="download">
+        <h1 class="final-download-title">Ready to start your journey? </h1>
+        <a href="https://www.minecraft.net/en-us/download" class="download-btn">Download Now</a>
+    </div>
+</div>
+
+<script>
+    function stars(){
+
+        let count = 20;
+        let scene = document.querySelector(".scene")
+        let i = 0;
+
+        while (i < count){
+            let star = document.createElement("i");
+            let x = Math.floor(Math.random() * window.innerWidth);
+
+            let duration = Math.random() * 1;
+            let h = Math.random() * 100;
+
+            star.style.left = x + "px";
+            star.style.width = 1 + "px";
+            star.style.height = 50 + h + "px";
+            star.style.animationDuration = duration + "s";
+
+            scene.appendChild(star);
+            i++
+        }
+    }
+
+    stars();
+
+</script>
+
+
+  
+<script src="flickity.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+ 
+   const targetDIV1 = document.getElementById("meadow-info");
+    const mainBTN1 = document.getElementById("toggle1");
+    const closeBTN1 = document.getElementById("xbutton1");
+    mainBTN1.onclick = function () {
+        targetDIV1.style.visibility = "visible";
+    };
+    closeBTN1.onclick = function () {
+        targetDIV1.style.visibility = "hidden";
+    };
+   
+    const targetDIV2 = document.getElementById("grove-info");
+    const mainBTN2 = document.getElementById("toggle2");
+    const closeBTN2 = document.getElementById("xbutton2");
+    mainBTN2.onclick = function () {
+        targetDIV2.style.visibility = "visible";
+    };
+    closeBTN2.onclick = function () {
+        targetDIV2.style.visibility = "hidden";
+    };
+ 
+    const targetDIV3 = document.getElementById("snowy-slopes-info");
+    const mainBTN3 = document.getElementById("toggle3");
+    const closeBTN3 = document.getElementById("xbutton3");
+    mainBTN3.onclick = function () {
+        targetDIV3.style.visibility = "visible";
+    };
+    closeBTN3.onclick = function () {
+        targetDIV3.style.visibility = "hidden";
+    };
+ 
+    const targetDIV4 = document.getElementById("jagged-peaks-info");
+    const mainBTN4 = document.getElementById("toggle4");
+    const closeBTN4 = document.getElementById("xbutton4");
+    mainBTN4.onclick = function () {
+        targetDIV4.style.visibility = "visible";
+    };
+    closeBTN4.onclick = function () {
+        targetDIV4.style.visibility = "hidden";
+    };
+ 
+    const targetDIV5 = document.getElementById("frozen-peaks-info");
+    const mainBTN5 = document.getElementById("toggle5");
+    const closeBTN5 = document.getElementById("xbutton5");
+    mainBTN5.onclick = function () {
+        targetDIV5.style.visibility = "visible";
+    };
+    closeBTN5.onclick = function () {
+        targetDIV5.style.visibility = "hidden";
+    };
+ 
+    const targetDIV6 = document.getElementById("stony-peaks-info");
+    const mainBTN6 = document.getElementById("toggle6");
+    const closeBTN6 = document.getElementById("xbutton6");
+    mainBTN6.onclick = function () {
+        targetDIV6.style.visibility = "visible";
+    };
+    closeBTN6.onclick = function () {
+        targetDIV6.style.visibility = "hidden";
+    };
+ 
+</script>
+
+<script type="text/javascript" src="main.js"></script>
+
+<!-- Libraries -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+   AOS.init();
+</script>
+
+</body>
+</html>

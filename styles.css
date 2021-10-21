@@ -1,0 +1,757 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home-main{
+  width: 100%;
+  height: 100%;
+  background: #252525;
+}
+.menu ul{
+  display: inline-flex;
+  margin: 50px;
+}
+.menu ul li{
+  list-style: none;
+  margin: 0 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.logo img{
+  width: 30px;
+  margin-top: -7px;
+  margin-right: 48px;
+}
+.home{
+  color: inherit;
+  text-decoration: none;
+}
+.home:hover{
+  color: #27b424 !important;
+  text-decoration: none;
+}
+.services{
+  color: inherit;
+  text-decoration: none;
+}
+.services:hover{
+  color: #27b424 !important;
+  text-decoration: none;
+}
+.product{
+  color: inherit;
+  text-decoration: none;
+}
+.product:hover{
+  color: #27b424 !important;
+  text-decoration: none;
+}
+.contact{
+  color: inherit;
+  text-decoration: none;
+}
+.contact:hover{
+  color: #27b424 !important;
+  text-decoration: none;
+}
+.login-btn{
+  top: 40px;
+  right: 80px;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#252525, #252525), radial-gradient(circle at top left, rgba(50,166,36,1) 5%, rgba(51,209,74,1) 43%, rgba(39,180,36,1) 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.login-btn span{
+  display: block;
+  padding: 8px 22px;
+}
+.login-btn:hover{
+  color: #27b424 !important;
+  text-decoration: none;
+}
+.banner{
+  height: 70%;
+  top: 25%;
+  left: 130px;
+  position: absolute;
+  color: #fff;
+}
+.title-bb{
+  font-size: 3rem!important;
+  background: linear-gradient(90deg, rgba(50,166,36,1) 5%, rgba(51,209,74,1) 43%, rgba(39,180,36,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subtitle-bb{
+  font-size: 1.5rem!important;
+  background: linear-gradient(90deg, rgba(50,166,36,1) 5%, rgba(51,209,74,1) 43%, rgba(39,180,36,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.app-text{
+  float: left;
+}
+.app-text h1{
+  font-size: 43px;
+  position: relative;
+  margin-left: 40px;
+}
+.app-text h2{
+  font-size: 43px;
+  position: relative;
+  margin-left: 40px;
+}
+.app-text p{
+  font-size: 16px;
+  margin: 30px 0 30px 40px;
+  line-height: 33px;
+  color: #b2b1b1;
+}
+.download-minecraft-btn{
+  margin-left: 40px;
+  display: inline-flex;
+}
+.download-minecraft-btn-inner{
+  height: 50px;
+  width: 50px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(#252525, #252525), radial-gradient(circle at top left, rgba(50,166,36,1) 5%, rgba(51,209,74,1) 43%, rgba(39,180,36,1) 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  position: relative;
+}
+.download-minecraft-btn-inner .fa{
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}  
+.download-minecraft-btn-inner .fa:hover{
+  color: #27b424;
+}  
+.learn-more{
+  margin: auto 20px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #27b424;
+  letter-spacing: 3px;
+}
+.download-minecraft-link{
+  color: inherit;
+  text-decoration: none;
+}
+.quick-links{
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(50,166,36,1) 5%, rgba(51,209,74,1) 43%, rgba(39,180,36,1) 100%);
+}
+.quick-links ul{
+  display: inline-flex;
+  margin: 30px auto;
+  text-align: center;
+}
+.quick-links ul li{
+  list-style: none;
+  margin: 0 50px;
+  cursor: pointer;
+}
+.quick-links ul li .fa{
+  font-size: 25px;
+  color: #fff;
+}
+.quick-links ul li .fa:hover{
+  color: #27b424 !important;
+  text-decoration: none;
+}
+.quick-links ul li p{
+  margin-top: 15px;
+  font-size: 10px;
+  color: #fff;
+}
+.quick-links ul li p:hover{
+  color: #27b424 !important;
+}
+.quick-links ul li .remove-underline{  
+  text-decoration: none;
+}
+.quick-links ul li .share-button{  
+  background: rgba(0,0,0,0);
+  border: none;
+}
+@media only screen and (max-width: 618px) {
+  .quick-links {
+      width: 100%;
+  }
+}
+.social-icons{
+  right: 72px;
+  bottom: 35px;
+  position: absolute;
+}
+.social-icons ul li{
+  list-style: none;
+  margin-top: 15px;
+  text-align: center;
+}
+.social-app{
+  margin-left: 40px;
+  display: inline-flex;
+}
+.social-app-inner{
+  height: 30px;
+  width: 30px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(#252525, #252525), radial-gradient(circle at top left, rgba(50,166,36,1) 5%, rgba(51,209,74,1) 43%, rgba(39,180,36,1) 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  position: relative;
+}
+.social-app-inner .fa{
+  font-size: 13px;
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.social-app-inner .fa:hover{
+  color: #27b424 !important;
+  text-decoration: none;
+}
+.grid {
+  display: table;
+  border-spacing: 15px;
+  float: right;
+  margin-top: 3%;
+  margin-right: 12.5%;
+}
+@media only screen and (max-width: 1179px) {
+.grid {
+  display: none;
+}
+}
+@media only screen and (min-width: 1180px) {
+.grid {
+  margin-right: 0;   
+}
+}
+@media only screen and (min-width: 1220px) {
+.grid {
+  margin-right: 2%;  
+}
+}
+@media only screen and (min-width: 1270px) {
+.grid {
+  margin-right: 5%;  
+}
+}
+@media only screen and (min-width: 1320px) {
+.grid {
+  margin-right: 7%;  
+}
+}
+@media only screen and (min-width: 1370px) {
+.grid {
+  margin-right: 10.7%;   
+}
+}
+@media only screen and (min-width: 1420px) {
+.grid {
+  margin-right: 12.5%;   
+}
+}
+@media only screen and (min-width: 1470px) {
+.grid {
+  margin-right: 13.5%;   
+}
+}
+@media only screen and (min-width: 1520px) {
+.grid {
+  margin-right: 14.5%;   
+}
+}
+@media only screen and (min-width: 1570px) {
+.grid {
+  margin-right: 15.5%;   
+}
+}
+@media only screen and (min-width: 1620px) {
+.grid {
+  margin-right: 16.5%;   
+}
+}
+@media only screen and (min-width: 1670px) {
+.grid {
+  margin-right: 17.5%;   
+}
+}
+@media only screen and (min-width: 1720px) {
+.grid {
+  margin-right: 18.5%;   
+}
+}
+@media only screen and (min-width: 1770px) {
+.grid {
+  margin-right: 19.5%;   
+}
+}
+@media only screen and (min-width: 1820px) {
+.grid {
+  margin-right: 20.5%;   
+}
+}
+@media only screen and (min-width: 1870px) {
+.grid {
+  margin-right: 21.5%;   
+}
+}
+@media only screen and (min-width: 1920px) {
+.grid {
+  margin-right: 22.5%;   
+}
+}
+.row {
+  display: table-row
+}
+.cell {
+  width: 170px;
+  height: 170px;
+  display: table-cell;
+}
+.grid-image{
+  border-radius: 15px;
+}
+.gallery {
+background: transparent;
+}
+.gallery-cell {
+width: 100%;
+height: 500px;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.gallery-cell-image {
+display: block;
+height: 100%;
+width: 100%;
+}
+.caves-main{
+width: 100%;
+height: 100%;
+background: white;
+}
+.caves-text-left{
+width: 50%;
+float: left;
+height: 70%;
+top: 120%;
+left: 130px;
+position: absolute;
+}
+.caves-text-right{
+width: 40%;
+height: 65%;
+float: right;
+top: 120%;
+right: -0;
+position: absolute;
+margin-top: 50px;
+}
+
+#caves-title{
+background: linear-gradient(90deg, rgba(153,153,153,1) 8%, rgba(112,112,112,1) 33%, rgba(52,52,52,1) 73%, rgba(52,52,52,1) 99%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+#caves-subtitle {
+background: linear-gradient(90deg, rgba(153,153,153,1) 8%, rgba(112,112,112,1) 33%, rgba(52,52,52,1) 73%, rgba(52,52,52,1) 99%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+#caves-p {
+color: #252525;
+width: 70%;
+}
+.mountains-main{
+ width: 100%;
+ height: 100%;
+ background: #252525;
+}
+
+.mountains-text-left{
+ width: 40%;
+ height: 65%;
+ top: 235%;
+ float: left;
+ left: 85px;
+ position: absolute;
+}
+
+.mountains-text-right{
+ width: 50%;
+ height: 70%;
+ float: right;
+ top: 220%;
+ right: 110px;
+ position: absolute;
+ margin-top: 50px;
+}
+
+
+#mountains-title{
+  background: -webkit-linear-gradient(360deg, #38aecc 10%, #347fb9 360%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+#mountains-subtitle {
+  background: -webkit-linear-gradient(360deg, #38aecc 10%, #347fb9 360%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+#mountains-p {
+ color: #b2b1b1;
+ width: 70%;
+}
+
+.biome-button-info{
+  font-size: 16px;
+  color: #b2b1b1;
+  background: rgba(0,0,0,0);
+  border: none;
+  text-decoration: underline;
+}
+.biome-button-info:hover{
+  color: #27b424;
+}
+
+/*biome-section section*/
+.biome-section {
+  position: absolute;
+  top: 212.5%;
+  left: 12.5%;
+  width: 75%;
+  height: 75%;
+  background-color: #aaa;
+}
+.biome {
+  float: left;
+  padding: 10px;
+  height: 100%; 
+}
+.biome-bar {
+  background-color: #666;
+  height: 32px;
+  position: relative;
+}
+.close-box{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  border: 1px solid #fff;
+}
+.close-box:hover{
+  border: 1px solid #e3242b;
+  color: #e3242b;
+}
+.close-box-inner{
+  position: relative;
+}
+.close-button{
+  position: absolute;
+  top: calc(50% + 2px);
+  left: 50%;
+  transform: translate(-50%);
+}
+.close-button-inner{
+  padding: 6px 9px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #fff;
+  background: rgba(0,0,0,0);
+  border: none;
+}
+.close-button-inner:hover{
+  color: #e3242b !important;
+  text-decoration: none;
+}
+.west {
+  width: 60%;
+}
+.east {
+  width: 40%;
+  position: relative;
+}
+.biome-pic{
+  width: 90%;
+  display: block;
+  margin: 0 auto 0 auto;
+  border: 5px solid #555;
+}
+.biome-text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.biome-p{
+  font-size: 16px;
+  line-height: 33px;
+  width: 80%;
+}
+
+/*Meadow section*/
+#meadow-info{
+  visibility: hidden;
+}
+#meadow-title{
+  background: linear-gradient(90deg, rgba(221,221,233,1) 0%, rgba(255,255,255,1) 35%, rgba(221,222,222,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 8%;
+}
+/*Grove section*/
+#grove-info{
+  visibility: hidden;
+}
+#grove-title{
+  background: linear-gradient(90deg, rgba(221,221,233,1) 0%, rgba(255,255,255,1) 35%, rgba(221,222,222,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 8%;
+}
+/*Snowy slopes section*/
+#snowy-slopes-info{
+  visibility: hidden;
+}
+#snowy-slopes-title{
+  background: linear-gradient(90deg, rgba(221,221,233,1) 0%, rgba(255,255,255,1) 35%, rgba(221,222,222,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 8%;
+}
+/*Jagged peaks section*/
+#jagged-peaks-info{
+  visibility: hidden;
+}
+#jagged-peaks-title{
+  background: linear-gradient(90deg, rgba(221,221,233,1) 0%, rgba(255,255,255,1) 35%, rgba(221,222,222,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 8%;
+}
+/*Frozen peaks section*/
+#frozen-peaks-info{
+  visibility: hidden;
+}
+#frozen-peaks-title{
+  background: linear-gradient(90deg, rgba(221,221,233,1) 0%, rgba(255,255,255,1) 35%, rgba(221,222,222,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 8%;
+}
+/*Stony peaks section*/
+#stony-peaks-info{
+  visibility: hidden;
+}
+#stony-peaks-title{
+  background: linear-gradient(90deg, rgba(221,221,233,1) 0%, rgba(255,255,255,1) 35%, rgba(221,222,222,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 8%;
+}
+
+.misc-main{
+width: 100%;
+height: 100%;
+background: #fff;
+}
+.misc-text-left{
+width: 50%;
+float: left;
+height: 70%;
+top: 320%;
+left: 130px;
+position: absolute;
+}
+.misc-text-right{
+width: 40%;
+height: 65%;
+float: right;
+top: 320%;
+right: -0;
+position: absolute;
+margin-top: 50px;
+}
+
+#misc-title{
+  background: -webkit-linear-gradient(360deg, #FD6F46 10%, #FB9832 360%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#misc-subtitle {
+  background: -webkit-linear-gradient(360deg, #FD6F46 10%, #FB9832 360%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#misc-p {
+color: #252525;
+width: 70%;
+font-size: 14px;
+}
+
+
+
+/* Blast Off */
+
+.scene {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  background-color: #1a1a1a;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene i {
+  position: absolute;
+  top: -250px;
+  background: rgba(255, 255, 255, 0.5);
+  animation: animateStars linear infinite;
+}
+
+@keyframes animateStars
+{
+  0%
+  {
+      transform: translateY(0);
+  }
+  100%
+  {
+      transform: translateY(200vh);
+  }
+}
+
+
+
+.scene .rocket {
+  animation: animate 0.2s ease infinite;
+}
+
+.scene img {
+  margin-bottom: 8rem;
+}
+
+@keyframes animate
+{
+  0%
+  {
+      transform: translateY(-2px);
+  }
+  50%
+  {
+      transform: translateY(2px);
+  }
+}
+
+.scene .rocket::before {
+  content: "";
+  position: absolute;
+  bottom: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 200px;
+  background: linear-gradient(#5c9428, transparent);
+  margin-bottom: 8rem;
+}
+
+.scene .rocket::after {
+  content: "";
+  position: absolute;
+  bottom: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 200px;
+  background: linear-gradient(#d78527, transparent);
+  filter: blur(20px);
+  margin-bottom: 8rem;
+}
+
+.download-container {
+  height: 30%;
+  width: 100%;
+  position: relative;
+  background-color: #1a1a1a;
+}
+
+.download {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#fff;
+  text-align: center;
+}
+
+.download-btn {
+  display: inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:2em 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+.download-btn:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}
+
+@media all and (max-width:30em){
+  .download-btn {
+    display:block;
+    margin:0.4em auto;
+  }
+}
