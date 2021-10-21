@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  zoom: 90%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -388,7 +392,7 @@ html {
   width: 50%;
   height: 70%;
   float: right;
-  top: 210%;
+  top: 220%;
   right: 110px;
   position: absolute;
   margin-top: 50px;
