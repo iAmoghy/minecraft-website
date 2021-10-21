@@ -1,3 +1,4 @@
+document.body.style.zoom="90%"
 
 $("caves-scroll").click(function() {
     $("caves-target")[0].scrollIntoView({
