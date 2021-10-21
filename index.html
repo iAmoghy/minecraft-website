@@ -437,8 +437,18 @@
 
 <script>
   AOS.init();
+   
+     function copyToClipboard(text) {
+	  var inputc = document.body.appendChild(document.createElement("input"));
+	  inputc.value = window.location.href;
+	  inputc.focus();
+	  inputc.select();
+	  document.execCommand('copy');
+	  inputc.parentNode.removeChild(inputc);
+	  alert("Link copied.");
+	  }
  
-   const targetDIV1 = document.getElementById("meadow-info");
+    const targetDIV1 = document.getElementById("meadow-info");
     const mainBTN1 = document.getElementById("toggle1");
     const closeBTN1 = document.getElementById("xbutton1");
     mainBTN1.onclick = function () {
